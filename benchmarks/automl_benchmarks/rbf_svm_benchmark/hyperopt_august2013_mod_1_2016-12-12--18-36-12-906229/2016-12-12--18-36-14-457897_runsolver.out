@@ -1,0 +1,55 @@
+runsolver Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This is runsolver version 3.3.4 (svn: 1649)
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+command line: runsolver -o /home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-14-457897_run_instance.out --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 17.0 -Sigma 5.42128606113 
+
+running on 4 cores: 0-3
+
+Using a pseudo terminal to collect output from the solver
+Current StackSize limit: 8192 KiB
+
+
+[startup+0 s]
+/proc/loadavg: 0.13 0.43 0.66 3/744 3165
+/proc/meminfo: memFree=107928/3896708 swapFree=104/147936
+[pid=3165] ppid=3163 vsize=20720 CPUtime=0.01 cores=0-3
+/proc/3165/stat : 3165 (python) R 3163 3165 20548 34816 3115 4210688 611 0 0 0 1 0 0 0 20 0 1 0 1821952 21217280 1504 18446744073709551615 4194304 7057652 140732197810400 140732197802544 5470151 0 0 16781312 2 0 0 0 17 1 0 0 0 0 0 9158080 9634804 28725248 140732197817605 140732197817689 140732197817689 140732197822383 0
+/proc/3165/statm: 5180 1504 1070 700 0 485 0
+
+Solver just ended. Dumping a history of the last processes samples
+
+Child status: 1
+Real time (s): 0.06327
+CPU time (s): 0.044
+CPU user time (s): 0.04
+CPU system time (s): 0.004
+CPU usage (%): 69.5432
+Max. virtual memory (cumulated for all children) (KiB): 0
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.04
+system time used= 0.004
+maximum resident set size= 7920
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 986
+page faults= 0
+swaps= 0
+block input operations= 8
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 1
+involuntary context switches= 16
+
+runsolver used 0.008 second user time and 0.024 second system time
+
+The end

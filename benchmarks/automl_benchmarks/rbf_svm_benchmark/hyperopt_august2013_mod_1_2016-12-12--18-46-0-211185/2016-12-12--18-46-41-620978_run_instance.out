@@ -1,0 +1,13 @@
+0.50/0.26	Loading required package: lattice
+0.50/0.29	Loading required package: ggplot2
+1.13/0.81	Params:  {'C': '23.0', 'Sigma': '11.3545822363', 'dataset': '/home/elena/R_ws/automl/ADS_workspace/datasets_repo/student/student-mat.csv'} 
+1.13/0.81	Traceback (most recent call last):
+1.13/0.81	  File "../benchmark_svm.py", line 23, in <module>
+1.13/0.81	    result = main(params, **args)
+1.13/0.81	  File "../benchmark_svm.py", line 12, in main
+1.13/0.81	    y = call_svm.save_svm(params, **kwargs)
+1.13/0.81	  File "/home/elena/thesis_workspace/test_HPOlib/HPOlib/virtualHPOlib/local/lib/python2.7/site-packages/HPOlib-0.2.0.dev0-py2.7.egg/HPOlib/benchmarks/call_svm.py", line 23, in save_svm
+1.13/0.81	    return float(svm(C = C, Sigma = Sigma, dataset = dataset))
+1.13/0.81	  File "/home/elena/thesis_workspace/test_HPOlib/HPOlib/virtualHPOlib/local/lib/python2.7/site-packages/HPOlib-0.2.0.dev0-py2.7.egg/HPOlib/benchmarks/call_svm.py", line 39, in svm
+1.13/0.81	    return float(result)
+1.13/0.81	UnboundLocalError: local variable 'result' referenced before assignment

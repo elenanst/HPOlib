@@ -1,0 +1,496 @@
+[INFO] [18:36:14:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 0, instance: 0
+Parameters: OrderedDict([('C', '17.0'), ('Sigma', '5.42128606113')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-14-457897_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 17.0 -Sigma 5.42128606113
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.05	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.05	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.05	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 0, instance 0; result: 0.000000, duration: 0.063270
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.063270
+
+[INFO] [18:36:15:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 1, instance: 0
+Parameters: OrderedDict([('C', '1.0'), ('Sigma', '5.66793372785')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-15-69730_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 1.0 -Sigma 5.66793372785
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 1, instance 0; result: 0.000000, duration: 0.019090
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.019090
+
+[INFO] [18:36:15:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 2, instance: 0
+Parameters: OrderedDict([('C', '17.0'), ('Sigma', '7.16037273347')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-15-477668_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 17.0 -Sigma 7.16037273347
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.03	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.03	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.03	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 2, instance 0; result: 0.000000, duration: 0.038676
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.038676
+
+[INFO] [18:36:15:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 3, instance: 0
+Parameters: OrderedDict([('C', '13.0'), ('Sigma', '12.5713879072')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-15-859534_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 13.0 -Sigma 12.5713879072
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 3, instance 0; result: 0.000000, duration: 0.020690
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.020690
+
+[INFO] [18:36:16:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 4, instance: 0
+Parameters: OrderedDict([('C', '21.0'), ('Sigma', '2.88591122417')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-16-218124_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 21.0 -Sigma 2.88591122417
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 4, instance 0; result: 0.000000, duration: 0.019317
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.019317
+
+[INFO] [18:36:16:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 5, instance: 0
+Parameters: OrderedDict([('C', '8.0'), ('Sigma', '11.6071819687')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-16-563890_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 8.0 -Sigma 11.6071819687
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.05/0.10	  File "../benchmark_svm.py", line 3, in <module>
+0.05/0.10	    import HPOlib.benchmarks.call_svm as call_svm
+0.05/0.10	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 5, instance 0; result: 0.000000, duration: 0.103372
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.103372
+
+[INFO] [18:36:17:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 6, instance: 0
+Parameters: OrderedDict([('C', '19.0'), ('Sigma', '0.992007761861')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-17-76267_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 19.0 -Sigma 0.992007761861
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.03	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.03	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.03	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 6, instance 0; result: 0.000000, duration: 0.043187
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.043187
+
+[INFO] [18:36:17:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 7, instance: 0
+Parameters: OrderedDict([('C', '23.0'), ('Sigma', '11.3545822363')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-17-491624_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 23.0 -Sigma 11.3545822363
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 7, instance 0; result: 0.000000, duration: 0.021612
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.021612
+
+[INFO] [18:36:18:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 8, instance: 0
+Parameters: OrderedDict([('C', '12.0'), ('Sigma', '0.134864000514')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-17-890706_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 12.0 -Sigma 0.134864000514
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 8, instance 0; result: 0.000000, duration: 0.025324
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.025324
+
+[INFO] [18:36:18:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 9, instance: 0
+Parameters: OrderedDict([('C', '0.0'), ('Sigma', '10.0271683625')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-18-303841_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 0.0 -Sigma 10.0271683625
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.02/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.02/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.02/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 9, instance 0; result: 0.000000, duration: 0.033286
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.033286
+
+[INFO] [18:36:18:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 10, instance: 0
+Parameters: OrderedDict([('C', '0.0'), ('Sigma', '2.3435059554')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-18-708140_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 0.0 -Sigma 2.3435059554
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 10, instance 0; result: 0.000000, duration: 0.024053
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.024053
+
+[INFO] [18:36:19:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 11, instance: 0
+Parameters: OrderedDict([('C', '18.0'), ('Sigma', '2.00411695094')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-19-1851_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 18.0 -Sigma 2.00411695094
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.01/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.01/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.01/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 11, instance 0; result: 0.000000, duration: 0.018848
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.018848
+
+[INFO] [18:36:19:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 12, instance: 0
+Parameters: OrderedDict([('C', '6.0'), ('Sigma', '10.1101313375')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-19-416612_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 6.0 -Sigma 10.1101313375
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 12, instance 0; result: 0.000000, duration: 0.025747
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.025747
+
+[INFO] [18:36:19:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 13, instance: 0
+Parameters: OrderedDict([('C', '19.0'), ('Sigma', '6.68126346904')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-19-761642_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 19.0 -Sigma 6.68126346904
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 13, instance 0; result: 0.000000, duration: 0.020395
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.020395
+
+[INFO] [18:36:20:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 14, instance: 0
+Parameters: OrderedDict([('C', '4.0'), ('Sigma', '11.0346300645')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-20-176637_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 4.0 -Sigma 11.0346300645
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 14, instance 0; result: 0.000000, duration: 0.020008
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.020008
+
+[INFO] [18:36:20:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 15, instance: 0
+Parameters: OrderedDict([('C', '13.0'), ('Sigma', '2.902784029')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-20-600385_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 13.0 -Sigma 2.902784029
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.01/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.01/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.01/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 15, instance 0; result: 0.000000, duration: 0.019805
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.019805
+
+[INFO] [18:36:21:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 16, instance: 0
+Parameters: OrderedDict([('C', '13.0'), ('Sigma', '3.83064503493')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-21-23231_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 13.0 -Sigma 3.83064503493
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 16, instance 0; result: 0.000000, duration: 0.022166
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.022166
+
+[INFO] [18:36:21:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 17, instance: 0
+Parameters: OrderedDict([('C', '12.0'), ('Sigma', '8.45486514261')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-21-344847_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 12.0 -Sigma 8.45486514261
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 17, instance 0; result: 0.000000, duration: 0.021578
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.021578
+
+[INFO] [18:36:21:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 18, instance: 0
+Parameters: OrderedDict([('C', '18.0'), ('Sigma', '1.26793682274')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-21-743280_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 18.0 -Sigma 1.26793682274
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 18, instance 0; result: 0.000000, duration: 0.019243
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.019243
+
+[INFO] [18:36:22:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 19, instance: 0
+Parameters: OrderedDict([('C', '22.0'), ('Sigma', '7.645700414')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-22-145512_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 22.0 -Sigma 7.645700414
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 19, instance 0; result: 0.000000, duration: 0.027244
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.027244
+
+[INFO] [18:36:22:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 20, instance: 0
+Parameters: OrderedDict([('C', '15.0'), ('Sigma', '8.57899066605')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-22-536318_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 15.0 -Sigma 8.57899066605
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 20, instance 0; result: 0.000000, duration: 0.019014
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.019014
+
+[INFO] [18:36:23:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 21, instance: 0
+Parameters: OrderedDict([('C', '9.0'), ('Sigma', '5.02530661742')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-22-911465_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 9.0 -Sigma 5.02530661742
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 21, instance 0; result: 0.000000, duration: 0.024741
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.024741
+
+[INFO] [18:36:23:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 22, instance: 0
+Parameters: OrderedDict([('C', '24.0'), ('Sigma', '4.59257836614')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-23-258049_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 24.0 -Sigma 4.59257836614
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 22, instance 0; result: 0.000000, duration: 0.018922
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.018922
+
+[INFO] [18:36:23:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 23, instance: 0
+Parameters: OrderedDict([('C', '15.0'), ('Sigma', '9.17991977897')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-23-696285_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 15.0 -Sigma 9.17991977897
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.01/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.01/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.01/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 23, instance 0; result: 0.000000, duration: 0.025483
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.025483
+
+[INFO] [18:36:24:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 24, instance: 0
+Parameters: OrderedDict([('C', '8.0'), ('Sigma', '4.95975453131')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-24-150551_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 8.0 -Sigma 4.95975453131
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 24, instance 0; result: 0.000000, duration: 0.018943
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.018943
+
+[INFO] [18:36:24:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 25, instance: 0
+Parameters: OrderedDict([('C', '23.0'), ('Sigma', '3.91153710931')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-24-565758_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 23.0 -Sigma 3.91153710931
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 25, instance 0; result: 0.000000, duration: 0.031793
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.031793
+
+[INFO] [18:36:25:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 26, instance: 0
+Parameters: OrderedDict([('C', '15.0'), ('Sigma', '8.86050199896')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-25-32394_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 15.0 -Sigma 8.86050199896
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 26, instance 0; result: 0.000000, duration: 0.025485
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.025485
+
+[INFO] [18:36:25:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 27, instance: 0
+Parameters: OrderedDict([('C', '9.0'), ('Sigma', '5.32832918007')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-25-437294_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 9.0 -Sigma 5.32832918007
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 27, instance 0; result: 0.000000, duration: 0.025494
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.025494
+
+[INFO] [18:36:26:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 28, instance: 0
+Parameters: OrderedDict([('C', '21.0'), ('Sigma', '5.95158823406')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-25-884089_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 21.0 -Sigma 5.95158823406
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.01	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 28, instance 0; result: 0.000000, duration: 0.018886
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.018886
+
+[INFO] [18:36:26:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 29, instance: 0
+Parameters: OrderedDict([('C', '16.0'), ('Sigma', '12.9384800604')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-26-393033_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 16.0 -Sigma 12.9384800604
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 29, instance 0; result: 0.000000, duration: 0.026690
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.026690
+
+[INFO] [18:36:27:tpecall] hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Starting instance evaluation for configuration: 30, instance: 0
+Parameters: OrderedDict([('C', '3.0'), ('Sigma', '5.95091406685')])
+Calling:  runsolver -o "/home/elena/thesis_workspace/test_HPOlib/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229/2016-12-12--18-36-26-881539_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 3.0 -Sigma 5.95091406685
+-----------------------RUNNING RUNSOLVER----------------------------
+We could not find anything matching our regexp. Setting the target algorithm runtime to the time measured by the runsolver. Last lines of your output:
+0.00/0.02	  File "../benchmark_svm.py", line 3, in <module>
+0.00/0.02	    import HPOlib.benchmarks.call_svm as call_svm
+0.00/0.02	ImportError: No module named call_svm
+
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Finished instance Evaluation for configuration: 30, instance 0; result: 0.000000, duration: 0.022753
+hyperopt_august2013_mod_1_2016-12-12--18-36-12-906229
+Result: 0.000000, Runtime: 0.022753
+

@@ -1,0 +1,73 @@
+runsolver Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This is runsolver version 3.3.4 (svn: 1649)
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+command line: runsolver -o /home/elena/R_ws/automl/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--19-51-46-804343/2016-12-12--19-51-48-201041_run_instance.out --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 17.0 -Sigma 7.16037273347 
+
+running on 4 cores: 0-3
+
+Using a pseudo terminal to collect output from the solver
+Current StackSize limit: 8192 KiB
+
+
+[startup+0 s]
+/proc/loadavg: 0.53 0.64 0.65 4/765 9049
+/proc/meminfo: memFree=131704/3896708 swapFree=104/222952
+[pid=9049] ppid=9047 vsize=20880 CPUtime=0 cores=0-3
+/proc/9049/stat : 9049 (python) R 9047 9049 5443 34816 8925 4210688 623 0 0 0 0 0 0 0 20 0 1 0 2275315 21381120 1528 18446744073709551615 4194304 7057652 140729357870848 140729357866816 140651580654277 0 0 16781312 2 0 0 0 17 1 0 0 0 0 0 9158080 9634804 42541056 140729357876588 140729357876672 140729357876672 140729357881280 0
+/proc/9049/statm: 5220 1528 1062 700 0 525 0
+
+[startup+0.0171859 s]
+/proc/loadavg: 0.53 0.64 0.65 4/765 9049
+/proc/meminfo: memFree=131704/3896708 swapFree=104/222952
+[pid=9049] ppid=9047 vsize=29064 CPUtime=0.01 cores=0-3
+/proc/9049/stat : 9049 (python) R 9047 9049 5443 34816 8925 4210688 961 0 0 0 1 0 0 0 20 0 1 0 2275315 29761536 1925 18446744073709551615 4194304 7057652 140729357870848 140729357867064 140651580881063 0 0 16781312 2 0 0 0 17 1 0 0 0 0 0 9158080 9634804 42541056 140729357876588 140729357876672 140729357876672 140729357881280 0
+/proc/9049/statm: 7266 1925 1152 700 0 807 0
+Current children cumulated CPU time (s) 0.01
+Current children cumulated vsize (KiB) 29064
+
+Solver just ended. Dumping a history of the last processes samples
+
+[startup+0.0171859 s]
+/proc/loadavg: 0.53 0.64 0.65 4/765 9049
+/proc/meminfo: memFree=131704/3896708 swapFree=104/222952
+[pid=9049] ppid=9047 vsize=29064 CPUtime=0.01 cores=0-3
+/proc/9049/stat : 9049 (python) R 9047 9049 5443 34816 8925 4210688 961 0 0 0 1 0 0 0 20 0 1 0 2275315 29761536 1925 18446744073709551615 4194304 7057652 140729357870848 140729357867064 140651580881063 0 0 16781312 2 0 0 0 17 1 0 0 0 0 0 9158080 9634804 42541056 140729357876588 140729357876672 140729357876672 140729357881280 0
+/proc/9049/statm: 7266 1925 1152 700 0 807 0
+Current children cumulated CPU time (s) 0.01
+Current children cumulated vsize (KiB) 29064
+
+Child status: 1
+Real time (s): 0.0218469
+CPU time (s): 0.02
+CPU user time (s): 0.016
+CPU system time (s): 0.004
+CPU usage (%): 91.546
+Max. virtual memory (cumulated for all children) (KiB): 29064
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.016
+system time used= 0.004
+maximum resident set size= 7972
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 1015
+page faults= 0
+swaps= 0
+block input operations= 0
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 1
+involuntary context switches= 13
+
+runsolver used 0.012 second user time and 0.004 second system time
+
+The end

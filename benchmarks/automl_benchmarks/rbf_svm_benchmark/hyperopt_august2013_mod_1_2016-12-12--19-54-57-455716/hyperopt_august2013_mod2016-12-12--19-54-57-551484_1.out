@@ -1,0 +1,33 @@
+[INFO] [19:55:06:tpecall] hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Starting instance evaluation for configuration: 0, instance: 0
+Parameters: OrderedDict([('C', '17.0'), ('Sigma', '5.42128606113')])
+Calling:  runsolver -o "/home/elena/R_ws/automl/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716/2016-12-12--19-54-58-154726_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 17.0 -Sigma 5.42128606113
+-----------------------RUNNING RUNSOLVER----------------------------
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Finished instance Evaluation for configuration: 0, instance 0; result: 0.115385, duration: 8.661720
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Result: 0.115385, Runtime: 8.661720
+
+[INFO] [19:55:11:tpecall] hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Starting instance evaluation for configuration: 1, instance: 0
+Parameters: OrderedDict([('C', '1.0'), ('Sigma', '5.66793372785')])
+Calling:  runsolver -o "/home/elena/R_ws/automl/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716/2016-12-12--19-55-7-246958_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 1.0 -Sigma 5.66793372785
+-----------------------RUNNING RUNSOLVER----------------------------
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Finished instance Evaluation for configuration: 1, instance 0; result: 0.115385, duration: 4.246910
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Result: 0.115385, Runtime: 4.246910
+
+[INFO] [19:55:15:tpecall] hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Starting instance evaluation for configuration: 2, instance: 0
+Parameters: OrderedDict([('C', '17.0'), ('Sigma', '7.16037273347')])
+Calling:  runsolver -o "/home/elena/R_ws/automl/HPOlib/benchmarks/automl_benchmarks/rbf_svm_benchmark/hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716/2016-12-12--19-55-12-38139_run_instance.out" --timestamp --use-pty -d 0 python ../benchmark_svm.py --fold 0 --folds 1 --params -C 17.0 -Sigma 7.16037273347
+-----------------------RUNNING RUNSOLVER----------------------------
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Finished instance Evaluation for configuration: 2, instance 0; result: 0.115385, duration: 3.790950
+hyperopt_august2013_mod_1_2016-12-12--19-54-57-455716
+Result: 0.115385, Runtime: 3.790950
+
