@@ -1,0 +1,402 @@
+[INFO ] Logging to: /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/log-run23.txt
+[INFO ] Version of SMAC is v2.10.00-development-1 (41df25760444), running on Java HotSpot(TM) 64-Bit Server VM (1.8.0_101) and Linux 4.2.0-42-generic (amd64) 
+[INFO ] Call String: smac --numRun 23 --cli-log-all-calls true --cutoffTime 2147483647 --intraInstanceObj MEAN --runObj QUALITY --algoExec "python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py" --numIterations 2147483647 --totalNumRunsLimit 200 --outputDirectory /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399 --numConcurrentAlgoExecs 1 --maxIncumbentRuns 2000 --retryTargetAlgorithmRunCount 0 --intensification-percentage 0 --initial-incumbent DEFAULT --rf-split-min 10 --validation false --runtime-limit 2147483647 --exec-mode SMAC --rf-num-trees 10 --continous-neighbours 4 --acquisition-function EI --save-runs-every-iteration false --deterministic true -p /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/params.pcs --execDir /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399 --scenario-file /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/scenario.txt --instanceFile /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/train.txt --testInstanceFile /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/test.txt 
+[INFO ] SMAC started at: Dec 12, 2016 7:45:35 PM. Minimizing mean quality.
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '2.5' -y '7.5'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:36:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'2.5'" -y "'7.5'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:36:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000834, 1, 24.129964, -1, 
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 0, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '2.5'), ('y', '7.5')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 0, instance 0; result: 24.129964, duration: 0.000834
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 24.129964, Runtime: 0.000834
+[WARN ] [PROCESS-ERR]  
+[INFO ] First incumbent: config 1 (internal ID: 0x000B), with mean quality: 24.129964; estimate based on 1 runs.
+[INFO ] Sample call for new incumbent config 1 (internal ID: 0x000B): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '2.5' -y '7.5'  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.921792765353196' -y '2.2662237873390834'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:37:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.921792765353196'" -y "'2.2662237873390834'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:37:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 1, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.921792765353196'), ('y', '2.2662237873390834')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000335, 1, 12.937206, -1, 
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 1, instance 0; result: 12.937206, duration: 0.000335
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 12.937206, Runtime: 0.000335
+[WARN ] [PROCESS-ERR]  
+[INFO ] Incumbent changed to: config 2 (internal ID: 0x3E1F), with mean quality: 12.937206; estimate based on 1 runs.
+[INFO ] Sample call for new incumbent config 2 (internal ID: 0x3E1F): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.921792765353196' -y '2.2662237873390834'  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.2789202800245754' -y '7.646999168469763'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.2789202800245754'" -y "'7.646999168469763'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000337, 1, 10.782131, -1, 
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 2, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.2789202800245754'), ('y', '7.646999168469763')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 2, instance 0; result: 10.782131, duration: 0.000337
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 10.782131, Runtime: 0.000337
+[WARN ] [PROCESS-ERR]  
+[INFO ] Incumbent changed to: config 3 (internal ID: 0x754B), with mean quality: 10.782131; estimate based on 1 runs.
+[INFO ] Sample call for new incumbent config 3 (internal ID: 0x754B): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.2789202800245754' -y '7.646999168469763'  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.6135138052939784' -y '14.848812628776612'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.6135138052939784'" -y "'14.848812628776612'"
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000338, 1, 168.194913, -1, 
+[WARN ] [PROCESS-ERR] [INFO] [19:45:38:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 3, instance: 0
+Parameters: OrderedDict([('x', '3.6135138052939784'), ('y', '14.848812628776612')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 3, instance 0; result: 168.194913, duration: 0.000338
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 168.194913, Runtime: 0.000338
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '1.909840365708023' -y '12.936974211777253'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'1.909840365708023'" -y "'12.936974211777253'"
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000346, 1, 97.158730, -1, 
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 4, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '1.909840365708023'), ('y', '12.936974211777253')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 4, instance 0; result: 97.158730, duration: 0.000346
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 97.158730, Runtime: 0.000346
+[WARN ] [PROCESS-ERR]  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.00295543769642' -y '4.562930402960311'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.00295543769642'" -y "'4.562930402960311'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 5, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.00295543769642'), ('y', '4.562930402960311')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 5, instance 0; result: 7.099648, duration: 0.000332
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 7.099648, Runtime: 0.000332
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000332, 1, 7.099648, -1, 
+[INFO ] Incumbent changed to: config 6 (internal ID: 0x15FF4), with mean quality: 7.099648; estimate based on 1 runs.
+[INFO ] Sample call for new incumbent config 6 (internal ID: 0x15FF4): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.00295543769642' -y '4.562930402960311'  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '6.592036528158433' -y '0.8932883100062455'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:40:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'6.592036528158433'" -y "'0.8932883100062455'"
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000344, 1, 19.200153, -1, 
+[WARN ] [PROCESS-ERR] [INFO] [19:45:40:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 6, instance: 0
+Parameters: OrderedDict([('x', '6.592036528158433'), ('y', '0.8932883100062455')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 6, instance 0; result: 19.200153, duration: 0.000344
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 19.200153, Runtime: 0.000344
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-3.0376001974612175' -y '2.5040449345955587'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:40:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-3.0376001974612175'" -y "'2.5040449345955587'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 7, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-3.0376001974612175'), ('y', '2.5040449345955587')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 7, instance 0; result: 91.126498, duration: 0.000327
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 91.126498, Runtime: 0.000327
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000327, 1, 91.126498, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.140026979664616' -y '6.212598440437185'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.140026979664616'" -y "'6.212598440437185'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 8, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.140026979664616'), ('y', '6.212598440437185')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 8, instance 0; result: 19.150752, duration: 0.000340
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 19.150752, Runtime: 0.000340
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000340, 1, 19.150752, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '2.123586783443911' -y '13.379233087328947'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'2.123586783443911'" -y "'13.379233087328947'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 9, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '2.123586783443911'), ('y', '13.379233087328947')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 9, instance 0; result: 108.518476, duration: 0.000332
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 108.518476, Runtime: 0.000332
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000332, 1, 108.518476, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '6.336444712395583' -y '8.618713085805346'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'6.336444712395583'" -y "'8.618713085805346'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 10, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '6.336444712395583'), ('y', '8.618713085805346')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 10, instance 0; result: 76.088545, duration: 0.000329
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 76.088545, Runtime: 0.000329
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000329, 1, 76.088545, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.029602033118527' -y '1.6197167751826025'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.029602033118527'" -y "'1.6197167751826025'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 11, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.029602033118527'), ('y', '1.6197167751826025')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 11, instance 0; result: 3.945651, duration: 0.000337
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 3.945651, Runtime: 0.000337
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000337, 1, 3.945651, -1, 
+[INFO ] Incumbent changed to: config 12 (internal ID: 0x2C0FE), with mean quality: 3.945651; estimate based on 1 runs.
+[INFO ] Sample call for new incumbent config 12 (internal ID: 0x2C0FE): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.029602033118527' -y '1.6197167751826025'  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.746519915526125' -y '7.750466728727422'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.746519915526125'" -y "'7.750466728727422'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000327, 1, 25.797673, -1, 
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 12, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.746519915526125'), ('y', '7.750466728727422')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 12, instance 0; result: 25.797673, duration: 0.000327
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 25.797673, Runtime: 0.000327
+[WARN ] [PROCESS-ERR]  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-1.058181652962788' -y '9.229311850171117'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-1.058181652962788'" -y "'9.229311850171117'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 13, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-1.058181652962788'), ('y', '9.229311850171117')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 13, instance 0; result: 16.670855, duration: 0.000331
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 16.670855, Runtime: 0.000331
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000331, 1, 16.670855, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.508291117345866' -y '1.1649451565150115'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.508291117345866'" -y "'1.1649451565150115'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 14, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.508291117345866'), ('y', '1.1649451565150115')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000343, 1, 95.187459, -1, 
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 14, instance 0; result: 95.187459, duration: 0.000343
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 95.187459, Runtime: 0.000343
+[WARN ] [PROCESS-ERR]  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '7.690259605129153' -y '4.530874109280527'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'7.690259605129153'" -y "'4.530874109280527'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 15, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '7.690259605129153'), ('y', '4.530874109280527')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 15, instance 0; result: 21.363958, duration: 0.000337
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 21.363958, Runtime: 0.000337
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000337, 1, 21.363958, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.28047517861392' -y '0.30188647822257664'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.28047517861392'" -y "'0.30188647822257664'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 16, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.28047517861392'), ('y', '0.30188647822257664')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 16, instance 0; result: 103.732062, duration: 0.000339
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 103.732062, Runtime: 0.000339
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000339, 1, 103.732062, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.4043333849102897' -y '10.335391932259222'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.4043333849102897'" -y "'10.335391932259222'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 17, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '3.4043333849102897'), ('y', '10.335391932259222')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 17, instance 0; result: 68.895139, duration: 0.000328
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 68.895139, Runtime: 0.000328
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000328, 1, 68.895139, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.572816968913971' -y '1.3570897738929717'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.572816968913971'" -y "'1.3570897738929717'"
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000343, 1, 1.643714, -1, 
+[WARN ] [PROCESS-ERR] [INFO] [19:45:46:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 18, instance: 0
+Parameters: OrderedDict([('x', '3.572816968913971'), ('y', '1.3570897738929717')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 18, instance 0; result: 1.643714, duration: 0.000343
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 1.643714, Runtime: 0.000343
+[INFO ] Incumbent changed to: config 19 (internal ID: 0x460F8), with mean quality: 1.643714; estimate based on 1 runs.
+[INFO ] Sample call for new incumbent config 19 (internal ID: 0x460F8): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.572816968913971' -y '1.3570897738929717'  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-4.428155194768183' -y '9.355436225617444'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-4.428155194768183'" -y "'9.355436225617444'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 19, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-4.428155194768183'), ('y', '9.355436225617444')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000326, 1, 46.061886, -1, 
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 19, instance 0; result: 46.061886, duration: 0.000326
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 46.061886, Runtime: 0.000326
+[WARN ] [PROCESS-ERR]  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.629668721576527' -y '11.85742954471708'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.629668721576527'" -y "'11.85742954471708'"
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000359, 1, 118.552475, -1, 
+[WARN ] [PROCESS-ERR] [INFO] [19:45:48:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 20, instance: 0
+Parameters: OrderedDict([('x', '4.629668721576527'), ('y', '11.85742954471708')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 20, instance 0; result: 118.552475, duration: 0.000359
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 118.552475, Runtime: 0.000359
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.815486705407379' -y '0.42070318212540314'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.815486705407379'" -y "'0.42070318212540314'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 21, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.815486705407379'), ('y', '0.42070318212540314')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 21, instance 0; result: 11.817869, duration: 0.000334
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 11.817869, Runtime: 0.000334
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000334, 1, 11.817869, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '1.8521658923602153' -y '0.700179299375831'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'1.8521658923602153'" -y "'0.700179299375831'"
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000364, 1, 15.146780, -1, 
+[WARN ] [PROCESS-ERR] [INFO] [19:45:49:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 22, instance: 0
+Parameters: OrderedDict([('x', '1.8521658923602153'), ('y', '0.700179299375831')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 22, instance 0; result: 15.146780, duration: 0.000364
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 15.146780, Runtime: 0.000364
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.6639010471052647' -y '14.170265671837075'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:49:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.6639010471052647'" -y "'14.170265671837075'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:49:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 23, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '3.6639010471052647'), ('y', '14.170265671837075')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 23, instance 0; result: 152.166023, duration: 0.000373
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000373, 1, 152.166023, -1, 
+[WARN ] [PROCESS-ERR]  Result: 152.166023, Runtime: 0.000373
+[WARN ] [PROCESS-ERR]  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-1.058358724545073' -y '0.024219995515347148'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-1.058358724545073'" -y "'0.024219995515347148'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 24, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-1.058358724545073'), ('y', '0.024219995515347148')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 24, instance 0; result: 75.624610, duration: 0.000335
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 75.624610, Runtime: 0.000335
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000335, 1, 75.624610, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '8.489630281903914' -y '8.040254258844959'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'8.489630281903914'" -y "'8.040254258844959'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 25, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '8.489630281903914'), ('y', '8.040254258844959')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 25, instance 0; result: 43.250548, duration: 0.000336
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 43.250548, Runtime: 0.000336
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000336, 1, 43.250548, -1, 
+[WARN ] [PROCESS-ERR]  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.02312156084644' -y '0.37625317414341164'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.02312156084644'" -y "'0.37625317414341164'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 26, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.02312156084644'), ('y', '0.37625317414341164')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 26, instance 0; result: 4.333260, duration: 0.000343
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 4.333260, Runtime: 0.000343
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000343, 1, 4.333260, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.431202418052836' -y '12.349995523001216'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.431202418052836'" -y "'12.349995523001216'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 27, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.431202418052836'), ('y', '12.349995523001216')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 27, instance 0; result: 97.806518, duration: 0.000340
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 97.806518, Runtime: 0.000340
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000340, 1, 97.806518, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.7256933563214325' -y '0.3116230892351052'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.7256933563214325'" -y "'0.3116230892351052'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 28, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.7256933563214325'), ('y', '0.3116230892351052')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 28, instance 0; result: 11.234816, duration: 0.000334
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 11.234816, Runtime: 0.000334
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000334, 1, 11.234816, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.8658809979845383' -y '2.0015797976375755'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.8658809979845383'" -y "'2.0015797976375755'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 29, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.8658809979845383'), ('y', '2.0015797976375755')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 29, instance 0; result: 93.317242, duration: 0.000358
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000358, 1, 93.317242, -1, 
+[WARN ] [PROCESS-ERR]  Result: 93.317242, Runtime: 0.000358
+[WARN ] [PROCESS-ERR]  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.047053540480324' -y '0.2620394016503619'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.047053540480324'" -y "'0.2620394016503619'"
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 30, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.047053540480324'), ('y', '0.2620394016503619')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 30, instance 0; result: 6.068234, duration: 0.000390
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 6.068234, Runtime: 0.000390
+[WARN ] [PROCESS-ERR]  
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000390, 1, 6.068234, -1, 
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '0.6940986168859862' -y '7.3721570726382'  
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'0.6940986168859862'" -y "'7.3721570726382'"
+[INFO ] [PROCESS] Result for ParamILS: SAT, 0.000369, 1, 23.210828, -1, 
+[WARN ] [PROCESS-ERR]  [INFO] [19:45:54:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Starting instance evaluation for configuration: 31, instance: 0
+[WARN ] [PROCESS-ERR]  Parameters: OrderedDict([('x', '0.6940986168859862'), ('y', '7.3721570726382')])
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Finished instance Evaluation for configuration: 31, instance 0; result: 23.210828, duration: 0.000369
+[WARN ] [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+[WARN ] [PROCESS-ERR]  Result: 23.210828, Runtime: 0.000369
+[WARN ] [PROCESS-ERR]  
+[INFO ] Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.9225124473931086' -y '0.16842742877999306'  

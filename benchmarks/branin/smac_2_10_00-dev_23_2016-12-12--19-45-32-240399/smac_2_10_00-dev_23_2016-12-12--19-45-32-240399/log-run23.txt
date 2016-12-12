@@ -1,0 +1,882 @@
+19:45:35.086 [main] INFO  c.u.c.b.a.l.ComplexLoggingOptions - Logging to: /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/log-run23.txt
+19:45:35.108 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Algorithm Execution & Abstraction Toolkit is v2.10.00-development-0 (24a421f3b6ad) 
+19:45:35.108 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Java Runtime Environment is Java HotSpot(TM) 64-Bit Server VM (1.8.0_101) 
+19:45:35.108 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of OS is Linux 4.2.0-42-generic (amd64) 
+19:45:35.108 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Random Forest Library is v1.10.01-development-1 (4de155a2386c) 
+19:45:35.108 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of SMAC is v2.10.00-development-1 (41df25760444) 
+19:45:35.109 [main] INFO  c.u.c.b.a.m.j.JCommanderHelper - Call String: smac --numRun 23 --cli-log-all-calls true --cutoffTime 2147483647 --intraInstanceObj MEAN --runObj QUALITY --algoExec "python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py" --numIterations 2147483647 --totalNumRunsLimit 200 --outputDirectory /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399 --numConcurrentAlgoExecs 1 --maxIncumbentRuns 2000 --retryTargetAlgorithmRunCount 0 --intensification-percentage 0 --initial-incumbent DEFAULT --rf-split-min 10 --validation false --runtime-limit 2147483647 --exec-mode SMAC --rf-num-trees 10 --continous-neighbours 4 --acquisition-function EI --save-runs-every-iteration false --deterministic true -p /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/params.pcs --execDir /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399 --scenario-file /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/scenario.txt --instanceFile /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/train.txt --testInstanceFile /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/test.txt 
+19:45:35.110 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ********** The next bit of output can be ignored, it is merely useful for debugging **********
+19:45:35.110 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ==========Enviroment Variables===========
+CLUTTER_IM_MODULE=xim
+CMAKE_PREFIX_PATH=/opt/ros/indigo
+COLORTERM=gnome-terminal
+COMPIZ_BIN_PATH=/usr/bin/
+COMPIZ_CONFIG_PROFILE=ubuntu
+CPATH=/opt/ros/indigo/include
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-PcTiu7L8ba
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+DESKTOP_SESSION=ubuntu
+DISPLAY=:0
+GDMSESSION=ubuntu
+GDM_LANG=en_US
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop
+GIO_LAUNCHED_DESKTOP_FILE_PID=5419
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-4ddLqe
+GNOME_KEYRING_PID=1711
+GPG_AGENT_INFO=/run/user/1000/keyring-4ddLqe/gpg:0:1
+GTK_IM_MODULE=ibus
+GTK_MODULES=overlay-scrollbar:unity-gtk-module
+HOME=/home/elena
+IBUS_DISABLE_SNOOPER=1
+IM_CONFIG_PHASE=1
+INSTANCE=
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+JOB=dbus
+LANG=en_US.UTF-8
+LANGUAGE=en_US
+LC_ADDRESS=el_GR.UTF-8
+LC_IDENTIFICATION=el_GR.UTF-8
+LC_MEASUREMENT=el_GR.UTF-8
+LC_MONETARY=el_GR.UTF-8
+LC_NAME=el_GR.UTF-8
+LC_NUMERIC=el_GR.UTF-8
+LC_PAPER=el_GR.UTF-8
+LC_TELEPHONE=el_GR.UTF-8
+LC_TIME=el_GR.UTF-8
+LD_LIBRARY_PATH=/opt/ros/indigo/lib:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/native/:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LESSOPEN=| /usr/bin/lesspipe %s
+LOGNAME=elena
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+ORBIT_SOCKETDIR=/tmp/orbit-elena
+PATH=/home/elena/R_ws/automl/HPOlib/virtualHPOlib/bin:/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+PKG_CONFIG_PATH=/opt/ros/indigo/lib/pkgconfig
+PWD=/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+PYTHONPATH=/opt/ros/indigo/lib/python2.7/dist-packages
+QT4_IM_MODULE=ibus
+QT_IM_MODULE=ibus
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+ROSLISP_PACKAGE_DIRECTORIES=
+ROS_DISTRO=indigo
+ROS_ETC_DIR=/opt/ros/indigo/etc/ros
+ROS_MASTER_URI=http://localhost:11311
+ROS_PACKAGE_PATH=/opt/ros/indigo/share:/opt/ros/indigo/stacks
+ROS_ROOT=/opt/ros/indigo/share/ros
+SELINUX_INIT=YES
+SESSION=ubuntu
+SESSIONTYPE=gnome-session
+SESSION_MANAGER=local/elena-EasyNote-TS11HR:@/tmp/.ICE-unix/1863,unix/elena-EasyNote-TS11HR:/tmp/.ICE-unix/1863
+SHELL=/bin/bash
+SHLVL=1
+SSH_AUTH_SOCK=/run/user/1000/keyring-4ddLqe/ssh
+TERM=xterm
+TERMINATOR_UUID=urn:uuid:09dd0e03-2f4f-4884-b436-7fd95161b520
+TEXTDOMAIN=im-config
+TEXTDOMAINDIR=/usr/share/locale/
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1715
+USER=elena
+VIRTUAL_ENV=/home/elena/R_ws/automl/HPOlib/virtualHPOlib
+WINDOWID=65011716
+XAUTHORITY=/home/elena/.Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+XDG_CURRENT_DESKTOP=Unity
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/elena
+XDG_MENU_PREFIX=gnome-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT=seat0
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SESSION_ID=c2
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_VTNR=7
+XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+XMODIFIERS=@im=ibus
+
+19:45:35.111 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - Hostname:elena-EasyNote-TS11HR
+19:45:35.111 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ==========System Properties==============
+ERRLOG=/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/log-err23.txt
+NUMRUN=23
+OUTPUTDIR=/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+ROOT-LEVEL=INFO
+RUNLOG=/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/log-run23.txt
+STDOUT-LEVEL=INFO
+WARNLOG=/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/log-warn23.txt
+awt.toolkit=sun.awt.X11.XToolkit
+file.encoding=UTF-8
+file.encoding.pkg=sun.io
+file.separator=/
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.awt.printerjob=sun.print.PSPrinterJob
+java.class.path=/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/conf/:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/patches/:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/aeatk.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/aeatk-src.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/commons-collections-3.2.1.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/commons-collections-3.2.1-sources.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/commons-io-2.1.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/commons-math-2.2.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/commons-math3-3.3.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/DomainInter.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/exp4j-0.3.10.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/exp4j-0.4.3.BETA-3.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/fastrf.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/fastrf-src.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/guava-14.0.1.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/jackson-annotations-2.3.1.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/jackson-core-2.3.1.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/jackson-databind-2.3.1.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/Jama-1.0.2.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/jcip-annotations.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/jcip-annotations-src.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/jcommander.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/jmatharray.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/logback-access-1.1.2.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/logback-classic-1.1.2.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/logback-core-1.1.2.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/numerics4j-1.3.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/opencsv-2.3.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/opencsv-3.1.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/slf4j-api-1.7.5.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/smac.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/smac-src.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/spi-0.2.4.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/*.jar:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/patches/
+java.class.version=52.0
+java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+java.home=/usr/lib/jvm/java-8-oracle/jre
+java.io.tmpdir=/tmp
+java.library.path=/opt/ros/indigo/lib:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/native/:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/lib/:/home/elena/R_ws/automl/HPOlib/optimizers/smac/smac_2_10_00-dev_src/:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.8.0_101-b13
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.8
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.8.0_101
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+java.vm.version=25.101-b13
+line.separator=
+
+logback.configurationFile=ca/ubc/cs/beta/aeatk/logging/complex-logback.xml
+os.arch=amd64
+os.name=Linux
+os.version=4.2.0-42-generic
+path.separator=:
+sun.arch.data.model=64
+sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.desktop=gnome
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=ca.ubc.cs.beta.aeatk.ant.execscript.Launcher ca.ubc.cs.beta.smac.executors.SMACExecutor --numRun 23 --cli-log-all-calls true --cutoffTime 2147483647 --intraInstanceObj MEAN --runObj QUALITY --algoExec python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py --numIterations 2147483647 --totalNumRunsLimit 200 --outputDirectory /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399 --numConcurrentAlgoExecs 1 --maxIncumbentRuns 2000 --retryTargetAlgorithmRunCount 0 --intensification-percentage 0 --initial-incumbent DEFAULT --rf-split-min 10 --validation false --runtime-limit 2147483647 --exec-mode SMAC --rf-num-trees 10 --continous-neighbours 4 --acquisition-function EI --save-runs-every-iteration false --deterministic true -p /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/params.pcs --execDir /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399 --scenario-file /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/scenario.txt --instanceFile /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/train.txt --testInstanceFile /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/test.txt
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=UTF-8
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=unknown
+user.country=US
+user.dir=/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+user.home=/home/elena
+user.language=en
+user.name=elena
+user.timezone=Europe/Athens
+
+19:45:35.113 [main] INFO  c.u.c.b.a.m.j.JCommanderHelper - ==========Configuration Options==========
+[SMACOptions]
+ adaptiveCapping = false
+ alwaysRunInitialConfiguration = false
+ capAddSlack = 1.0
+ capSlack = 1.3
+classicInitModeOpts = [ClassicInitializationProcedureOptions]
+		 initialIncumbentRuns = 1
+
+dciModeOpts = [DoublingCappingInitializationProcedureOptions]
+		 numberOfChallengers = 2
+		 numberOfRunsPerChallenger = 2
+
+ucip = [UnbiasChallengerInitializationProcedureOptions]
+		 numberOfChallengers = 2
+		 numberOfRunsPerChallenger = 2
+		 cpulimit = 0
+
+ deterministicInstanceOrdering = false
+ doValidation = false
+ execMode = SMAC
+ experimentDir = /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/
+ expFunc = EI
+help = [HelpOptions]
+		 showHiddenParameters = false
+		 showHelp = false
+		 helpLevel = BASIC
+		 showVersion = false
+		 helpDefaults = /home/elena/.aeatk/help.opt
+
+ initialChallengeRuns = 1
+ initialIncumbent = DEFAULT
+ initializationMode = CLASSIC
+ intensificationPercentage = 0.0
+ initialChallengers = []
+ initialChallengersIntensificationTime = 2147483647
+ iterativeCappingBreakOnFirstCompletion = false
+ iterativeCappingK = 1
+logOptions = [ComplexLoggingOptions]
+		 consoleLogLevel = INFO
+		 logLevel = INFO
+
+ maxIncumbentRuns = 2000
+mbOptions = [ModelBuildingOptions]
+		 maskCensoredDataAsKappaMax = false
+		 maskInactiveConditionalParametersAsDefaultValue = true
+		 maskCensoredDataAsUncensored = false
+		 imputationIterations = 2
+
+ modelHashCodeFile = null
+ numberOfChallengers = 10
+ numberOfRandomConfigsInEI = 10000
+ numberOfRandomConfigsUsedForLocalSearch = 0
+ numPCA = 7
+ optionFile = null
+ optionFile2 = null
+randomForestOptions = [RandomForestOptions]
+		 brokenVarianceCalculation = false
+		 freeMemoryPercentageToSubsample = 0.25
+		 fullTreeBootstrap = false
+		 ignoreConditionality = false
+		 imputeMean = false
+		 logModel = false
+		 minVariance = 1.0E-14
+		 numTrees = 10
+		 penalizeImputedValues = false
+		 preprocessMarginal = true
+		 ratioFeatures = 0.8333333333333334
+		 shuffleImputedValues = false
+		 splitMin = 10
+		 storeDataInLeaves = false
+		 subsamplePercentage = 0.9
+		 subsampleValuesWhenLowMemory = false
+
+runGroupOptions = [RunGroupOptions]
+		 runGroupName = %SCENARIO_NAME
+		 runGroupExit = false
+		 replacementChar = %
+
+scenarioConfig = [ScenarioOptions]
+		 _runObj = QUALITY
+		 intraInstanceObj = MEAN
+		 interInstanceObj = MEAN
+		limitOptions = [TerminationCriteriaOptions]
+				 tunerTimeout = 2147483647
+				 numIterations = 2147483647
+				 runtimeLimit = 2147483647
+				 totalNumRunsLimit = 200
+				 countSMACTimeAsTunerTime = true
+				 challengeIncumbentAttempts = 1000
+				 fileToWatch = null
+
+		instanceOptions = [ProblemInstanceOptions]
+				 instanceFile = /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/train.txt
+				 instanceFeatureFile = null
+				 testInstanceFile = /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/test.txt
+				 checkInstanceFilesExist = false
+				 useInstances = true
+				 instanceSuffix = null
+				 testInstanceSuffix = null
+				 ignoreFeatures = false
+
+		 scenarioFile = /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/scenario.txt
+		 outputDirectory = /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+		 invalidScenarioReason = null
+		algoExecOptions = [AlgorithmExecutionOptions]
+				 algoExec = python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py
+				 algoExecDir = /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+				 deterministic = true
+				 cutoffTime = 2.147483647E9
+				 cutoffLength = -1.0
+				 additionalContext = {}
+				taeOpts = [TargetAlgorithmEvaluatorOptions]
+						 targetAlgorithmEvaluator = CLI
+						 abortOnCrash = false
+						 abortOnFirstRunCrash = true
+						 retryCount = 0
+						 cacheRuns = false
+						 cacheDebug = false
+						 useDynamicCappingExclusively = false
+						 reportStrictlyIncreasingRuntimes = false
+						 boundRuns = false
+						 maxConcurrentAlgoExecs = 1
+						 exitOnFailure = false
+						 runHashCodeFile = null
+						 leakMemory = false
+						 leakMemoryAmount = 1024
+						 verifySAT = null
+						 checkSATConsistency = true
+						 checkSATConsistencyException = true
+						 callObserverBeforeCompletion = true
+						prePostOptions = [PrePostCommandOptions]
+								 preCommand = null
+								 postCommand = null
+								 exceptionOnError = false
+								 logOutput = true
+								 directory = /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/.
+
+						 checkResultOrderConsistent = false
+						 skipOutstandingEvaluationsTAE = false
+						 logRequestResponses = false
+						 logRequestResponsesRCOnly = false
+						 trackRunsScheduled = false
+						 trackRunsScheduledResolution = 1.0
+						 uncleanShutdownCheck = true
+						 killCaptimeExceedingRun = true
+						 killCaptimeExceedingRunFactor = 10.0
+						 checkRunConfigsUnique = true
+						 checkRunConfigsUniqueException = true
+						 observeWalltimeIfNoRuntime = true
+						 observeWalltimeScale = 0.95
+						 observeWalltimeDelay = 5.0
+						 synchronousObserver = true
+						 taeDefaults = /home/elena/.aeatk/tae.opt
+						ttaedo = [TransformTargetAlgorithmEvaluatorDecoratorOptions]
+								 transform = false
+								 transformValidValuesOnly = true
+								 SAT_runtime_transform = R
+								 SAT_quality_transform = Q
+								 UNSAT_runtime_transform = R
+								 UNSAT_quality_transform = Q
+								 TIMEOUT_runtime_transform = R
+								 TIMEOUT_quality_transform = Q
+								 other_runtime_transform = R
+								 other_quality_transform = Q
+
+						tForkOptions = [ForkingTargetAlgorithmEvaluatorDecoratorOptions]
+								 forkToTAE = null
+								fPolicyOptions = [ForkingTargetAlgorithmEvaluatorDecoratorPolicyOptions]
+										 fPolicy = null
+										 duplicateOnSlaveQuickTimeout = 5
+
+
+						 fileToWatch = null
+						 warnIfNoResponseFromTAE = 120
+						 taeStopProcessingOnShutdown = true
+						 filecache = false
+						 fileCacheSource = null
+						 fileCacheOutput = null
+						 fileCacheCrashOnMiss = false
+						 transformCrashedQuality = true
+						 transformCrashedQualityValue = 1.0E9
+
+				paramFileDelegate = [ParamConfigurationSpaceOptions]
+						 paramFile = /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399/params.pcs
+						 searchSubspace = null
+						 searchSubspaceFile = null
+						 continuousNeighbours = 4
+
+
+
+seedOptions = [SeedOptions]
+		 seedOffset = 0
+		 numRun = 23
+		 initialSeedMap = {}
+
+ smacDefaults = /home/elena/.aeatk/smac.opt
+stateOpts = [StateFactoryOptions]
+		 stateSerializer = LEGACY
+		 statedeSerializer = LEGACY
+		 restoreStateFrom = null
+		 restoreIteration = null
+		 restoreScenario = null
+		 cleanOldStatesOnSuccess = true
+		 saveContextWithState = true
+
+trackingOptions = [ParamConfigurationOriginTrackingOptions]
+		 configTracking = false
+
+validationOptions = [ValidationOptions]
+		 maxTimestamp = -1.0
+		 minTimestamp = 0.0
+		 multFactor = 2.0
+		 numberOfTestInstances = 2147483647
+		 numberOfTestSeedsPerInstance = 1000
+		 numberOfValidationRuns = 1
+		 outputFileSuffix = 
+		 saveStateFile = false
+		 useWallClockTime = true
+		 validateAll = false
+		 validateOnlyIfTunerTimeReached = 0.0
+		 validateOnlyIfWallTimeReached = 0.0
+		 validateOnlyLastIncumbent = true
+		 validationHeaders = true
+		 validationRoundingMode = UP
+
+warmStartOptions = [WarmStartOptions]
+		 warmStartStateFrom = null
+		 restoreIteration = 2147483647
+
+ validationSeed = 0
+ saveRunsEveryIteration = false
+ stateQuickSaves = true
+ shutdownTAEWhenDone = true
+ validationCores = null
+ shareModelMode = false
+ shareRunDataFrequency = 300
+ shareModeModeTAE = true
+ writeRunData = true
+ defaultHandler = USE_ALL
+ sharedModeModeAssymetricMode = false
+
+[AnalyticTargetAlgorithmEvaluatorOptions]
+ simulateDelay = false
+ cores = 0
+ observerFrequency = 100
+ func = CAMELBACK
+ scaleDelay = 1.0
+
+[BlackHoleTargetAlgorithmEvaluatorOptions]
+ warnings = true
+
+[CommandLineTargetAlgorithmEvaluatorOptions]
+ observerFrequency = 500
+ concurrentExecution = true
+ cores = 1
+ logAllCallStrings = false
+ logAllResultLines = false
+ logAllCallsAndResultLines = true
+ logAllProcessOutput = false
+ listenForUpdates = true
+ paramArgumentsContainQuotes = false
+ pgEnvKillCommand = null
+ pgNiceKillCommand = bash -c "kill -s TERM -%pid"
+ pgForceKillCommand = bash -c "kill -s KILL -%pid"
+ procNiceKillCommand = kill -s TERM %pid
+ procForceKillCommand = kill -s KILL %pid
+ smacDefaults = /home/elena/.aeatk/cli-tae.opt
+
+[ConstantTargetAlgorithmEvaluatorOptions]
+ runResult = SAT
+ runtime = 1.0
+ quality = 0.0
+ runlength = 0.0
+ additionalRunData = 
+
+[IPCTargetAlgorithmEvaluatorOptions]
+ persistent = false
+ ipcMechanism = UDP
+ encodingMechanism = CALL_STRING
+ remoteHost = 127.0.0.1
+ remotePort = 5050
+ udpPacketSize = 4096
+ localPort = 0
+ execScript = null
+ execScriptOutput = false
+ poolConnections = false
+ ipcDefaults = /home/elena/.aeatk/ipc-tae.opt
+ asyncThreads = 5
+
+[PreloadedResponseTargetAlgorithmEvaluatorOptions]
+ preloadedResponses = 
+ runLength = -1.0
+ quality = 0.0
+ additionalRunData = 
+
+[RandomResponseTargetAlgorithmEvaluatorOptions]
+ simulateDelay = false
+ additionalRunData = 
+ cores = 0
+ maxResponse = 10.0
+ minResponse = 0.0
+ observerFrequency = 500
+ trendCoefficient = 0.0
+ seed = 1481564733704
+ persistent = false
+ scaleDelay = 1.0
+
+
+19:45:35.753 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - SMAC started at: Dec 12, 2016 7:45:35 PM. Minimizing mean quality.
+19:45:35.833 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '2.5' -y '7.5'  
+19:45:36.434 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:36:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'2.5'" -y "'7.5'"
+19:45:36.887 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:36:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:36.888 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:36.888 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000834, 1, 24.129964, -1, 
+19:45:36.888 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 0, instance: 0
+19:45:36.889 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '2.5'), ('y', '7.5')])
+19:45:36.889 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:36.889 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 0, instance 0; result: 24.129964, duration: 0.000834
+19:45:36.890 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:36.890 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 24.129964, Runtime: 0.000834
+19:45:36.890 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:37.040 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - First incumbent: config 1 (internal ID: 0x000B), with mean quality: 24.129964; estimate based on 1 runs.
+19:45:37.041 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 1 (internal ID: 0x000B): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '2.5' -y '7.5'  
+19:45:37.331 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.921792765353196' -y '2.2662237873390834'  
+19:45:37.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:37:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.921792765353196'" -y "'2.2662237873390834'"
+19:45:37.836 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:37:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:37.836 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:37.836 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 1, instance: 0
+19:45:37.836 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.921792765353196'), ('y', '2.2662237873390834')])
+19:45:37.837 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:37.837 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000335, 1, 12.937206, -1, 
+19:45:37.837 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 1, instance 0; result: 12.937206, duration: 0.000335
+19:45:37.837 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:37.837 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 12.937206, Runtime: 0.000335
+19:45:37.838 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:37.846 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 2 (internal ID: 0x3E1F), with mean quality: 12.937206; estimate based on 1 runs.
+19:45:37.847 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 2 (internal ID: 0x3E1F): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.921792765353196' -y '2.2662237873390834'  
+19:45:37.855 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.2789202800245754' -y '7.646999168469763'  
+19:45:38.066 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.2789202800245754'" -y "'7.646999168469763'"
+19:45:38.267 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:38.267 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:38.267 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000337, 1, 10.782131, -1, 
+19:45:38.267 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 2, instance: 0
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.2789202800245754'), ('y', '7.646999168469763')])
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 2, instance 0; result: 10.782131, duration: 0.000337
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 10.782131, Runtime: 0.000337
+19:45:38.269 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:38.276 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 3 (internal ID: 0x754B), with mean quality: 10.782131; estimate based on 1 runs.
+19:45:38.277 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 3 (internal ID: 0x754B): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.2789202800245754' -y '7.646999168469763'  
+19:45:38.444 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.6135138052939784' -y '14.848812628776612'  
+19:45:38.662 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.6135138052939784'" -y "'14.848812628776612'"
+19:45:38.910 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000338, 1, 168.194913, -1, 
+19:45:38.913 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:38:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 3, instance: 0
+Parameters: OrderedDict([('x', '3.6135138052939784'), ('y', '14.848812628776612')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 3, instance 0; result: 168.194913, duration: 0.000338
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 168.194913, Runtime: 0.000338
+19:45:39.058 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '1.909840365708023' -y '12.936974211777253'  
+19:45:39.269 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'1.909840365708023'" -y "'12.936974211777253'"
+19:45:39.496 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000346, 1, 97.158730, -1, 
+19:45:39.520 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.520 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.520 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 4, instance: 0
+19:45:39.521 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '1.909840365708023'), ('y', '12.936974211777253')])
+19:45:39.521 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.521 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 4, instance 0; result: 97.158730, duration: 0.000346
+19:45:39.522 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.522 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 97.158730, Runtime: 0.000346
+19:45:39.522 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:39.533 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.00295543769642' -y '4.562930402960311'  
+19:45:39.741 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.00295543769642'" -y "'4.562930402960311'"
+19:45:39.942 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.942 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.942 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 5, instance: 0
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.00295543769642'), ('y', '4.562930402960311')])
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 5, instance 0; result: 7.099648, duration: 0.000332
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 7.099648, Runtime: 0.000332
+19:45:39.944 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:39.964 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000332, 1, 7.099648, -1, 
+19:45:40.001 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 6 (internal ID: 0x15FF4), with mean quality: 7.099648; estimate based on 1 runs.
+19:45:40.002 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 6 (internal ID: 0x15FF4): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.00295543769642' -y '4.562930402960311'  
+19:45:40.139 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '6.592036528158433' -y '0.8932883100062455'  
+19:45:40.392 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:40:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'6.592036528158433'" -y "'0.8932883100062455'"
+19:45:40.619 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000344, 1, 19.200153, -1, 
+19:45:40.643 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:40:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 6, instance: 0
+Parameters: OrderedDict([('x', '6.592036528158433'), ('y', '0.8932883100062455')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 6, instance 0; result: 19.200153, duration: 0.000344
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 19.200153, Runtime: 0.000344
+19:45:40.649 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-3.0376001974612175' -y '2.5040449345955587'  
+19:45:40.862 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:40:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-3.0376001974612175'" -y "'2.5040449345955587'"
+19:45:41.171 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 7, instance: 0
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-3.0376001974612175'), ('y', '2.5040449345955587')])
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 7, instance 0; result: 91.126498, duration: 0.000327
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 91.126498, Runtime: 0.000327
+19:45:41.174 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:41.191 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000327, 1, 91.126498, -1, 
+19:45:41.299 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.140026979664616' -y '6.212598440437185'  
+19:45:41.506 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.140026979664616'" -y "'6.212598440437185'"
+19:45:41.708 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.708 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.708 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 8, instance: 0
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.140026979664616'), ('y', '6.212598440437185')])
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 8, instance 0; result: 19.150752, duration: 0.000340
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 19.150752, Runtime: 0.000340
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:41.731 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000340, 1, 19.150752, -1, 
+19:45:41.765 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '2.123586783443911' -y '13.379233087328947'  
+19:45:41.971 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'2.123586783443911'" -y "'13.379233087328947'"
+19:45:42.171 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 9, instance: 0
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '2.123586783443911'), ('y', '13.379233087328947')])
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 9, instance 0; result: 108.518476, duration: 0.000332
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 108.518476, Runtime: 0.000332
+19:45:42.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:42.197 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000332, 1, 108.518476, -1, 
+19:45:42.335 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '6.336444712395583' -y '8.618713085805346'  
+19:45:42.542 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'6.336444712395583'" -y "'8.618713085805346'"
+19:45:42.743 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 10, instance: 0
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '6.336444712395583'), ('y', '8.618713085805346')])
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 10, instance 0; result: 76.088545, duration: 0.000329
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 76.088545, Runtime: 0.000329
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:42.769 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000329, 1, 76.088545, -1, 
+19:45:42.801 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.029602033118527' -y '1.6197167751826025'  
+19:45:43.008 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.029602033118527'" -y "'1.6197167751826025'"
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 11, instance: 0
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.029602033118527'), ('y', '1.6197167751826025')])
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 11, instance 0; result: 3.945651, duration: 0.000337
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 3.945651, Runtime: 0.000337
+19:45:43.210 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:43.234 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000337, 1, 3.945651, -1, 
+19:45:43.263 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 12 (internal ID: 0x2C0FE), with mean quality: 3.945651; estimate based on 1 runs.
+19:45:43.263 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 12 (internal ID: 0x2C0FE): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.029602033118527' -y '1.6197167751826025'  
+19:45:43.340 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.746519915526125' -y '7.750466728727422'  
+19:45:43.546 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.746519915526125'" -y "'7.750466728727422'"
+19:45:43.797 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.797 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000327, 1, 25.797673, -1, 
+19:45:43.797 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.797 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 12, instance: 0
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.746519915526125'), ('y', '7.750466728727422')])
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 12, instance 0; result: 25.797673, duration: 0.000327
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 25.797673, Runtime: 0.000327
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:43.812 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-1.058181652962788' -y '9.229311850171117'  
+19:45:43.977 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-1.058181652962788'" -y "'9.229311850171117'"
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 13, instance: 0
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-1.058181652962788'), ('y', '9.229311850171117')])
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 13, instance 0; result: 16.670855, duration: 0.000331
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 16.670855, Runtime: 0.000331
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:44.253 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000331, 1, 16.670855, -1, 
+19:45:44.356 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.508291117345866' -y '1.1649451565150115'  
+19:45:44.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.508291117345866'" -y "'1.1649451565150115'"
+19:45:44.811 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 14, instance: 0
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.508291117345866'), ('y', '1.1649451565150115')])
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.812 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000343, 1, 95.187459, -1, 
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 14, instance 0; result: 95.187459, duration: 0.000343
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 95.187459, Runtime: 0.000343
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:44.820 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '7.690259605129153' -y '4.530874109280527'  
+19:45:45.024 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'7.690259605129153'" -y "'4.530874109280527'"
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 15, instance: 0
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '7.690259605129153'), ('y', '4.530874109280527')])
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 15, instance 0; result: 21.363958, duration: 0.000337
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.226 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 21.363958, Runtime: 0.000337
+19:45:45.226 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:45.250 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000337, 1, 21.363958, -1, 
+19:45:45.339 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.28047517861392' -y '0.30188647822257664'  
+19:45:45.549 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.28047517861392'" -y "'0.30188647822257664'"
+19:45:45.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 16, instance: 0
+19:45:45.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.28047517861392'), ('y', '0.30188647822257664')])
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 16, instance 0; result: 103.732062, duration: 0.000339
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 103.732062, Runtime: 0.000339
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:45.819 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000339, 1, 103.732062, -1, 
+19:45:45.860 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.4043333849102897' -y '10.335391932259222'  
+19:45:46.064 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.4043333849102897'" -y "'10.335391932259222'"
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 17, instance: 0
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '3.4043333849102897'), ('y', '10.335391932259222')])
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:46.316 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 17, instance 0; result: 68.895139, duration: 0.000328
+19:45:46.316 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:46.316 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 68.895139, Runtime: 0.000328
+19:45:46.316 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:46.317 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000328, 1, 68.895139, -1, 
+19:45:46.439 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.572816968913971' -y '1.3570897738929717'  
+19:45:46.642 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.572816968913971'" -y "'1.3570897738929717'"
+19:45:46.894 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000343, 1, 1.643714, -1, 
+19:45:46.895 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:46:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 18, instance: 0
+Parameters: OrderedDict([('x', '3.572816968913971'), ('y', '1.3570897738929717')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 18, instance 0; result: 1.643714, duration: 0.000343
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 1.643714, Runtime: 0.000343
+19:45:46.902 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 19 (internal ID: 0x460F8), with mean quality: 1.643714; estimate based on 1 runs.
+19:45:46.902 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 19 (internal ID: 0x460F8): 
+cd /home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399; python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.572816968913971' -y '1.3570897738929717'  
+19:45:46.906 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-4.428155194768183' -y '9.355436225617444'  
+19:45:47.114 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-4.428155194768183'" -y "'9.355436225617444'"
+19:45:47.365 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:47.365 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:47.365 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 19, instance: 0
+19:45:47.365 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-4.428155194768183'), ('y', '9.355436225617444')])
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:47.366 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000326, 1, 46.061886, -1, 
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 19, instance 0; result: 46.061886, duration: 0.000326
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 46.061886, Runtime: 0.000326
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:47.519 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.629668721576527' -y '11.85742954471708'  
+19:45:47.772 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.629668721576527'" -y "'11.85742954471708'"
+19:45:48.099 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000359, 1, 118.552475, -1, 
+19:45:48.123 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:48:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 20, instance: 0
+Parameters: OrderedDict([('x', '4.629668721576527'), ('y', '11.85742954471708')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 20, instance 0; result: 118.552475, duration: 0.000359
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 118.552475, Runtime: 0.000359
+19:45:48.129 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.815486705407379' -y '0.42070318212540314'  
+19:45:48.334 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.815486705407379'" -y "'0.42070318212540314'"
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 21, instance: 0
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.815486705407379'), ('y', '0.42070318212540314')])
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 21, instance 0; result: 11.817869, duration: 0.000334
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 11.817869, Runtime: 0.000334
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:48.637 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000334, 1, 11.817869, -1, 
+19:45:48.754 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '1.8521658923602153' -y '0.700179299375831'  
+19:45:49.012 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'1.8521658923602153'" -y "'0.700179299375831'"
+19:45:49.287 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000364, 1, 15.146780, -1, 
+19:45:49.313 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:49:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 22, instance: 0
+Parameters: OrderedDict([('x', '1.8521658923602153'), ('y', '0.700179299375831')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 22, instance 0; result: 15.146780, duration: 0.000364
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 15.146780, Runtime: 0.000364
+19:45:49.320 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.6639010471052647' -y '14.170265671837075'  
+19:45:49.531 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:49:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.6639010471052647'" -y "'14.170265671837075'"
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:49:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 23, instance: 0
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '3.6639010471052647'), ('y', '14.170265671837075')])
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 23, instance 0; result: 152.166023, duration: 0.000373
+19:45:49.783 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:49.783 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000373, 1, 152.166023, -1, 
+19:45:49.783 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 152.166023, Runtime: 0.000373
+19:45:49.783 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:49.841 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-1.058358724545073' -y '0.024219995515347148'  
+19:45:50.046 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-1.058358724545073'" -y "'0.024219995515347148'"
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 24, instance: 0
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-1.058358724545073'), ('y', '0.024219995515347148')])
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 24, instance 0; result: 75.624610, duration: 0.000335
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 75.624610, Runtime: 0.000335
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:50.323 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000335, 1, 75.624610, -1, 
+19:45:50.354 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '8.489630281903914' -y '8.040254258844959'  
+19:45:50.558 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'8.489630281903914'" -y "'8.040254258844959'"
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 25, instance: 0
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '8.489630281903914'), ('y', '8.040254258844959')])
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 25, instance 0; result: 43.250548, duration: 0.000336
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.810 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 43.250548, Runtime: 0.000336
+19:45:50.810 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000336, 1, 43.250548, -1, 
+19:45:50.810 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:50.952 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.02312156084644' -y '0.37625317414341164'  
+19:45:51.155 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.02312156084644'" -y "'0.37625317414341164'"
+19:45:51.406 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.406 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 26, instance: 0
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.02312156084644'), ('y', '0.37625317414341164')])
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 26, instance 0; result: 4.333260, duration: 0.000343
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 4.333260, Runtime: 0.000343
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:51.407 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000343, 1, 4.333260, -1, 
+19:45:51.464 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '9.431202418052836' -y '12.349995523001216'  
+19:45:51.667 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.431202418052836'" -y "'12.349995523001216'"
+19:45:51.918 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.918 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 27, instance: 0
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.431202418052836'), ('y', '12.349995523001216')])
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 27, instance 0; result: 97.806518, duration: 0.000340
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 97.806518, Runtime: 0.000340
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:51.945 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000340, 1, 97.806518, -1, 
+19:45:52.026 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.7256933563214325' -y '0.3116230892351052'  
+19:45:52.230 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.7256933563214325'" -y "'0.3116230892351052'"
+19:45:52.481 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.481 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.481 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 28, instance: 0
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.7256933563214325'), ('y', '0.3116230892351052')])
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 28, instance 0; result: 11.234816, duration: 0.000334
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 11.234816, Runtime: 0.000334
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:52.499 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000334, 1, 11.234816, -1, 
+19:45:52.536 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '-2.8658809979845383' -y '2.0015797976375755'  
+19:45:52.739 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.8658809979845383'" -y "'2.0015797976375755'"
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 29, instance: 0
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.8658809979845383'), ('y', '2.0015797976375755')])
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 29, instance 0; result: 93.317242, duration: 0.000358
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.991 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000358, 1, 93.317242, -1, 
+19:45:52.991 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 93.317242, Runtime: 0.000358
+19:45:52.991 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:53.050 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '4.047053540480324' -y '0.2620394016503619'  
+19:45:53.258 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.047053540480324'" -y "'0.2620394016503619'"
+19:45:53.559 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:53.559 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:53.559 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 30, instance: 0
+19:45:53.559 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.047053540480324'), ('y', '0.2620394016503619')])
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 30, instance 0; result: 6.068234, duration: 0.000390
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 6.068234, Runtime: 0.000390
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:53.585 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000390, 1, 6.068234, -1, 
+19:45:53.615 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '0.6940986168859862' -y '7.3721570726382'  
+19:45:53.823 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'0.6940986168859862'" -y "'7.3721570726382'"
+19:45:54.120 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS] Result for ParamILS: SAT, 0.000369, 1, 23.210828, -1, 
+19:45:54.124 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:54:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:54.124 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 31, instance: 0
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '0.6940986168859862'), ('y', '7.3721570726382')])
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 31, instance 0; result: 23.210828, duration: 0.000369
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 23.210828, Runtime: 0.000369
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:54.242 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.9225124473931086' -y '0.16842742877999306'  
+19:45:54.294 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] Traceback (most recent call last):
+  File "/home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py", line 2, in <module>
+    import logging
+  File "/usr/lib/python2.7/logging/__init__.py", line 230, in <module>
+    class LogRecord(object):
+KeyboardInterrupt
+19:45:54.299 [CLI TAE (Master Thread - #0)] ERROR c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - The following algorithm call failed: cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.9225124473931086' -y '0.16842742877999306'  
+19:45:54.300 [main] WARN  c.u.c.b.a.t.d.s.CrashedSolutionQualityTransformingTargetAlgorithmEvaluatorDecorator - Detected CRASHED run. The Solution Quality of CRASHED runs will be transformed to the MAX(quality, 1.0E9), to disable this use --transform-crashed-quality false to change the value use --transform-crashed-quality-value
+19:45:54.304 [CLI TAE (Master Thread - #0)] INFO  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - Call (with token 0) : cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '6.36016158113264' -y '2.8868320161506396'  
+19:45:54.340 [Thread-6] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Making best attempt to save state. This state may be dirty, in that it was taken in the middle of an iteration and consequently may not be restorable. It may also be corrupt depending on the exact reason we are shutting down.

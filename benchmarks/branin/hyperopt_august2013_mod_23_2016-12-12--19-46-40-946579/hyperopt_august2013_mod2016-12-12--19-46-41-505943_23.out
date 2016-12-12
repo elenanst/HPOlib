@@ -1,0 +1,293 @@
+[INFO] [19:46:42:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 0, instance: 0
+Parameters: OrderedDict([('x', '9.20443905722'), ('y', '7.7594682577')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 0, instance 0; result: 30.485952, duration: 0.000334
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 30.485952, Runtime: 0.000334
+
+[INFO] [19:46:42:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 1, instance: 0
+Parameters: OrderedDict([('x', '5.49268074924'), ('y', '14.40025955')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 1, instance 0; result: 192.176906, duration: 0.000333
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 192.176906, Runtime: 0.000333
+
+[INFO] [19:46:42:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 2, instance: 0
+Parameters: OrderedDict([('x', '3.73415393009'), ('y', '13.0518620494')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 2, instance 0; result: 127.331963, duration: 0.000443
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 127.331963, Runtime: 0.000443
+
+[INFO] [19:46:42:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 3, instance: 0
+Parameters: OrderedDict([('x', '2.79087218958'), ('y', '4.61902428937')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 3, instance 0; result: 5.203881, duration: 0.000383
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 5.203881, Runtime: 0.000383
+
+[INFO] [19:46:43:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 4, instance: 0
+Parameters: OrderedDict([('x', '7.21875610742'), ('y', '6.38582115778')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 4, instance 0; result: 42.147608, duration: 0.000325
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 42.147608, Runtime: 0.000325
+
+[INFO] [19:46:43:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 5, instance: 0
+Parameters: OrderedDict([('x', '3.41859403491'), ('y', '10.9352061343')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 5, instance 0; result: 79.375480, duration: 0.000324
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 79.375480, Runtime: 0.000324
+
+[INFO] [19:46:43:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 6, instance: 0
+Parameters: OrderedDict([('x', '-0.726410521586'), ('y', '12.9563997836')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 6, instance 0; result: 50.035323, duration: 0.000339
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 50.035323, Runtime: 0.000339
+
+[INFO] [19:46:43:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 7, instance: 0
+Parameters: OrderedDict([('x', '0.711227344527'), ('y', '9.66215304103')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 7, instance 0; result: 39.635353, duration: 0.000327
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 39.635353, Runtime: 0.000327
+
+[INFO] [19:46:44:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 8, instance: 0
+Parameters: OrderedDict([('x', '9.37158349779'), ('y', '4.29080732491')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 8, instance 0; result: 3.872232, duration: 0.000345
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 3.872232, Runtime: 0.000345
+
+[INFO] [19:46:44:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 9, instance: 0
+Parameters: OrderedDict([('x', '0.590667324629'), ('y', '12.8833390094')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 9, instance 0; result: 78.477860, duration: 0.000328
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 78.477860, Runtime: 0.000328
+
+[INFO] [19:46:44:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 10, instance: 0
+Parameters: OrderedDict([('x', '1.74963131576'), ('y', '3.72765191157')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 10, instance 0; result: 8.305591, duration: 0.000324
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 8.305591, Runtime: 0.000324
+
+[INFO] [19:46:45:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 11, instance: 0
+Parameters: OrderedDict([('x', '6.70150690787'), ('y', '0.578425213221')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 11, instance 0; result: 19.084945, duration: 0.000329
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 19.084945, Runtime: 0.000329
+
+[INFO] [19:46:45:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 12, instance: 0
+Parameters: OrderedDict([('x', '-0.374755895526'), ('y', '6.87082422336')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 12, instance 0; result: 19.001356, duration: 0.000484
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 19.001356, Runtime: 0.000484
+
+[INFO] [19:46:45:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 13, instance: 0
+Parameters: OrderedDict([('x', '4.02421318555'), ('y', '10.9276078739')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 13, instance 0; result: 89.284385, duration: 0.000328
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 89.284385, Runtime: 0.000328
+
+[INFO] [19:46:45:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 14, instance: 0
+Parameters: OrderedDict([('x', '1.96147261457'), ('y', '14.1674490429')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 14, instance 0; result: 122.815146, duration: 0.000326
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 122.815146, Runtime: 0.000326
+
+[INFO] [19:46:46:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 15, instance: 0
+Parameters: OrderedDict([('x', '7.89561769886'), ('y', '5.77159679275')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 15, instance 0; result: 27.956402, duration: 0.000323
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 27.956402, Runtime: 0.000323
+
+[INFO] [19:46:46:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 16, instance: 0
+Parameters: OrderedDict([('x', '6.96848531924'), ('y', '8.20333734218')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 16, instance 0; result: 66.726625, duration: 0.000330
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 66.726625, Runtime: 0.000330
+
+[INFO] [19:46:46:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 17, instance: 0
+Parameters: OrderedDict([('x', '-4.16950939832'), ('y', '6.1153054212')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 17, instance 0; result: 81.891436, duration: 0.000333
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 81.891436, Runtime: 0.000333
+
+[INFO] [19:46:46:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 18, instance: 0
+Parameters: OrderedDict([('x', '-4.30856268991'), ('y', '3.76385435617')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 18, instance 0; result: 138.283364, duration: 0.000335
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 138.283364, Runtime: 0.000335
+
+[INFO] [19:46:47:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 19, instance: 0
+Parameters: OrderedDict([('x', '9.26071459615'), ('y', '5.61810178271')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 19, instance 0; result: 11.272212, duration: 0.000325
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 11.272212, Runtime: 0.000325
+
+[INFO] [19:46:47:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 20, instance: 0
+Parameters: OrderedDict([('x', '5.13329940932'), ('y', '0.121256882232')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 20, instance 0; result: 15.162008, duration: 0.000321
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 15.162008, Runtime: 0.000321
+
+[INFO] [19:46:47:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 21, instance: 0
+Parameters: OrderedDict([('x', '-2.61992286536'), ('y', '3.10854765751')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 21, instance 0; result: 64.844370, duration: 0.000327
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 64.844370, Runtime: 0.000327
+
+[INFO] [19:46:48:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 22, instance: 0
+Parameters: OrderedDict([('x', '-2.542832803'), ('y', '1.81219977729')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 22, instance 0; result: 84.335959, duration: 0.000335
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 84.335959, Runtime: 0.000335
+
+[INFO] [19:46:48:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 23, instance: 0
+Parameters: OrderedDict([('x', '9.19757269366'), ('y', '4.66330347027')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 23, instance 0; result: 6.277156, duration: 0.000323
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 6.277156, Runtime: 0.000323
+
+[INFO] [19:46:48:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 24, instance: 0
+Parameters: OrderedDict([('x', '5.27265257842'), ('y', '2.15439934643')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 24, instance 0; result: 16.014002, duration: 0.000461
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 16.014002, Runtime: 0.000461
+
+[INFO] [19:46:48:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 25, instance: 0
+Parameters: OrderedDict([('x', '-1.49592163317'), ('y', '1.54981967513')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 25, instance 0; result: 61.414111, duration: 0.000326
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 61.414111, Runtime: 0.000326
+
+[INFO] [19:46:49:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 26, instance: 0
+Parameters: OrderedDict([('x', '8.2595732882'), ('y', '8.77470985214')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 26, instance 0; result: 56.723525, duration: 0.000327
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 56.723525, Runtime: 0.000327
+
+[INFO] [19:46:49:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 27, instance: 0
+Parameters: OrderedDict([('x', '2.82965736845'), ('y', '4.90404450717')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 27, instance 0; result: 6.493392, duration: 0.000328
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 6.493392, Runtime: 0.000328
+
+[INFO] [19:46:49:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 28, instance: 0
+Parameters: OrderedDict([('x', '5.89843631903'), ('y', '7.4316674625')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 28, instance 0; result: 58.903109, duration: 0.000377
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 58.903109, Runtime: 0.000377
+
+[INFO] [19:46:50:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 29, instance: 0
+Parameters: OrderedDict([('x', '9.58693392932'), ('y', '2.93903205914')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 29, instance 0; result: 0.628734, duration: 0.000327
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 0.628734, Runtime: 0.000327
+
+[INFO] [19:46:50:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 30, instance: 0
+Parameters: OrderedDict([('x', '9.87512849042'), ('y', '0.875667988415')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 30, instance 0; result: 5.376951, duration: 0.000332
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 5.376951, Runtime: 0.000332
+
+[INFO] [19:46:50:tpecall] hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Starting instance evaluation for configuration: 31, instance: 0
+Parameters: OrderedDict([('x', '9.89635655178'), ('y', '2.73317955683')])
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Finished instance Evaluation for configuration: 31, instance 0; result: 1.474273, duration: 0.000328
+hyperopt_august2013_mod_23_2016-12-12--19-46-40-946579
+Result: 1.474273, Runtime: 0.000328
+
+Traceback (most recent call last):
+  File "/home/elena/R_ws/automl/HPOlib/optimizers/tpe/tpecall.py", line 166, in <module>
+    main()
+  File "/home/elena/R_ws/automl/HPOlib/optimizers/tpe/tpecall.py", line 157, in main
+    rval.exhaust()

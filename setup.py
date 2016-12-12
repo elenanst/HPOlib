@@ -306,7 +306,7 @@ setup(
                       'scipy>=0.13.2',
                       'pymongo',
                       'psutil',
-                      'pyparsing'
+                      'pyparsing',
                       'nose'
                       ],
     author_email='eggenspk@informatik.uni-freiburg.de',

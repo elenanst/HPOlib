@@ -1,0 +1,323 @@
+19:45:36.434 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:36:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'2.5'" -y "'7.5'"
+19:45:36.887 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:36:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:36.888 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:36.888 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 0, instance: 0
+19:45:36.889 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '2.5'), ('y', '7.5')])
+19:45:36.889 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:36.889 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 0, instance 0; result: 24.129964, duration: 0.000834
+19:45:36.890 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:36.890 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 24.129964, Runtime: 0.000834
+19:45:36.890 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:37.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:37:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.921792765353196'" -y "'2.2662237873390834'"
+19:45:37.836 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:37:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:37.836 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:37.836 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 1, instance: 0
+19:45:37.836 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.921792765353196'), ('y', '2.2662237873390834')])
+19:45:37.837 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:37.837 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 1, instance 0; result: 12.937206, duration: 0.000335
+19:45:37.837 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:37.837 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 12.937206, Runtime: 0.000335
+19:45:37.838 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:38.066 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.2789202800245754'" -y "'7.646999168469763'"
+19:45:38.267 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:38.267 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:38.267 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 2, instance: 0
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.2789202800245754'), ('y', '7.646999168469763')])
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 2, instance 0; result: 10.782131, duration: 0.000337
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:38.268 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 10.782131, Runtime: 0.000337
+19:45:38.269 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:38.662 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:38:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.6135138052939784'" -y "'14.848812628776612'"
+19:45:38.913 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:38:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 3, instance: 0
+Parameters: OrderedDict([('x', '3.6135138052939784'), ('y', '14.848812628776612')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 3, instance 0; result: 168.194913, duration: 0.000338
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 168.194913, Runtime: 0.000338
+19:45:39.269 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'1.909840365708023'" -y "'12.936974211777253'"
+19:45:39.520 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.520 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.520 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 4, instance: 0
+19:45:39.521 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '1.909840365708023'), ('y', '12.936974211777253')])
+19:45:39.521 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.521 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 4, instance 0; result: 97.158730, duration: 0.000346
+19:45:39.522 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.522 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 97.158730, Runtime: 0.000346
+19:45:39.522 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:39.741 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.00295543769642'" -y "'4.562930402960311'"
+19:45:39.942 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:39:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.942 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.942 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 5, instance: 0
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.00295543769642'), ('y', '4.562930402960311')])
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 5, instance 0; result: 7.099648, duration: 0.000332
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:39.943 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 7.099648, Runtime: 0.000332
+19:45:39.944 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:40.392 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:40:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'6.592036528158433'" -y "'0.8932883100062455'"
+19:45:40.643 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:40:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 6, instance: 0
+Parameters: OrderedDict([('x', '6.592036528158433'), ('y', '0.8932883100062455')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 6, instance 0; result: 19.200153, duration: 0.000344
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 19.200153, Runtime: 0.000344
+19:45:40.862 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:40:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-3.0376001974612175'" -y "'2.5040449345955587'"
+19:45:41.171 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 7, instance: 0
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-3.0376001974612175'), ('y', '2.5040449345955587')])
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 7, instance 0; result: 91.126498, duration: 0.000327
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 91.126498, Runtime: 0.000327
+19:45:41.174 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:41.506 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.140026979664616'" -y "'6.212598440437185'"
+19:45:41.708 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.708 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.708 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 8, instance: 0
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.140026979664616'), ('y', '6.212598440437185')])
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 8, instance 0; result: 19.150752, duration: 0.000340
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 19.150752, Runtime: 0.000340
+19:45:41.709 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:41.971 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:41:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'2.123586783443911'" -y "'13.379233087328947'"
+19:45:42.171 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 9, instance: 0
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '2.123586783443911'), ('y', '13.379233087328947')])
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 9, instance 0; result: 108.518476, duration: 0.000332
+19:45:42.172 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 108.518476, Runtime: 0.000332
+19:45:42.173 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:42.542 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'6.336444712395583'" -y "'8.618713085805346'"
+19:45:42.743 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 10, instance: 0
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '6.336444712395583'), ('y', '8.618713085805346')])
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 10, instance 0; result: 76.088545, duration: 0.000329
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 76.088545, Runtime: 0.000329
+19:45:42.744 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:43.008 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:42:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.029602033118527'" -y "'1.6197167751826025'"
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 11, instance: 0
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.029602033118527'), ('y', '1.6197167751826025')])
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 11, instance 0; result: 3.945651, duration: 0.000337
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 3.945651, Runtime: 0.000337
+19:45:43.210 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:43.546 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.746519915526125'" -y "'7.750466728727422'"
+19:45:43.797 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.797 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.797 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 12, instance: 0
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.746519915526125'), ('y', '7.750466728727422')])
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 12, instance 0; result: 25.797673, duration: 0.000327
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 25.797673, Runtime: 0.000327
+19:45:43.798 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:43.977 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:43:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-1.058181652962788'" -y "'9.229311850171117'"
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 13, instance: 0
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-1.058181652962788'), ('y', '9.229311850171117')])
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 13, instance 0; result: 16.670855, duration: 0.000331
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 16.670855, Runtime: 0.000331
+19:45:44.228 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:44.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.508291117345866'" -y "'1.1649451565150115'"
+19:45:44.811 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 14, instance: 0
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.508291117345866'), ('y', '1.1649451565150115')])
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 14, instance 0; result: 95.187459, duration: 0.000343
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 95.187459, Runtime: 0.000343
+19:45:44.812 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:45.024 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:44:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'7.690259605129153'" -y "'4.530874109280527'"
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 15, instance: 0
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '7.690259605129153'), ('y', '4.530874109280527')])
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 15, instance 0; result: 21.363958, duration: 0.000337
+19:45:45.225 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.226 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 21.363958, Runtime: 0.000337
+19:45:45.226 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:45.549 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.28047517861392'" -y "'0.30188647822257664'"
+19:45:45.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:45:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 16, instance: 0
+19:45:45.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.28047517861392'), ('y', '0.30188647822257664')])
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 16, instance 0; result: 103.732062, duration: 0.000339
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 103.732062, Runtime: 0.000339
+19:45:45.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:46.064 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.4043333849102897'" -y "'10.335391932259222'"
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 17, instance: 0
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '3.4043333849102897'), ('y', '10.335391932259222')])
+19:45:46.315 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:46.316 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 17, instance 0; result: 68.895139, duration: 0.000328
+19:45:46.316 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:46.316 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 68.895139, Runtime: 0.000328
+19:45:46.316 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:46.642 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:46:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.572816968913971'" -y "'1.3570897738929717'"
+19:45:46.895 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:46:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 18, instance: 0
+Parameters: OrderedDict([('x', '3.572816968913971'), ('y', '1.3570897738929717')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 18, instance 0; result: 1.643714, duration: 0.000343
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 1.643714, Runtime: 0.000343
+19:45:47.114 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-4.428155194768183'" -y "'9.355436225617444'"
+19:45:47.365 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:47.365 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:47.365 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 19, instance: 0
+19:45:47.365 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-4.428155194768183'), ('y', '9.355436225617444')])
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 19, instance 0; result: 46.061886, duration: 0.000326
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 46.061886, Runtime: 0.000326
+19:45:47.366 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:47.772 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:47:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.629668721576527'" -y "'11.85742954471708'"
+19:45:48.123 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:48:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 20, instance: 0
+Parameters: OrderedDict([('x', '4.629668721576527'), ('y', '11.85742954471708')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 20, instance 0; result: 118.552475, duration: 0.000359
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 118.552475, Runtime: 0.000359
+19:45:48.334 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.815486705407379'" -y "'0.42070318212540314'"
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 21, instance: 0
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.815486705407379'), ('y', '0.42070318212540314')])
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 21, instance 0; result: 11.817869, duration: 0.000334
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 11.817869, Runtime: 0.000334
+19:45:48.635 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:49.012 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:48:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'1.8521658923602153'" -y "'0.700179299375831'"
+19:45:49.313 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] [INFO] [19:45:49:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Starting instance evaluation for configuration: 22, instance: 0
+Parameters: OrderedDict([('x', '1.8521658923602153'), ('y', '0.700179299375831')])
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Finished instance Evaluation for configuration: 22, instance 0; result: 15.146780, duration: 0.000364
+smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+Result: 15.146780, Runtime: 0.000364
+19:45:49.531 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:49:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'3.6639010471052647'" -y "'14.170265671837075'"
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:49:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 23, instance: 0
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '3.6639010471052647'), ('y', '14.170265671837075')])
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:49.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 23, instance 0; result: 152.166023, duration: 0.000373
+19:45:49.783 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:49.783 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 152.166023, Runtime: 0.000373
+19:45:49.783 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:50.046 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-1.058358724545073'" -y "'0.024219995515347148'"
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 24, instance: 0
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-1.058358724545073'), ('y', '0.024219995515347148')])
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 24, instance 0; result: 75.624610, duration: 0.000335
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 75.624610, Runtime: 0.000335
+19:45:50.297 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:50.558 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'8.489630281903914'" -y "'8.040254258844959'"
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:50:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 25, instance: 0
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '8.489630281903914'), ('y', '8.040254258844959')])
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 25, instance 0; result: 43.250548, duration: 0.000336
+19:45:50.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:50.810 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 43.250548, Runtime: 0.000336
+19:45:50.810 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:51.155 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.02312156084644'" -y "'0.37625317414341164'"
+19:45:51.406 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.406 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 26, instance: 0
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.02312156084644'), ('y', '0.37625317414341164')])
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 26, instance 0; result: 4.333260, duration: 0.000343
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 4.333260, Runtime: 0.000343
+19:45:51.407 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:51.667 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'9.431202418052836'" -y "'12.349995523001216'"
+19:45:51.918 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:51:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.918 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 27, instance: 0
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '9.431202418052836'), ('y', '12.349995523001216')])
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 27, instance 0; result: 97.806518, duration: 0.000340
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 97.806518, Runtime: 0.000340
+19:45:51.919 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:52.230 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.7256933563214325'" -y "'0.3116230892351052'"
+19:45:52.481 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.481 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.481 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 28, instance: 0
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.7256933563214325'), ('y', '0.3116230892351052')])
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 28, instance 0; result: 11.234816, duration: 0.000334
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 11.234816, Runtime: 0.000334
+19:45:52.482 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:52.739 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'-2.8658809979845383'" -y "'2.0015797976375755'"
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:52:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 29, instance: 0
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '-2.8658809979845383'), ('y', '2.0015797976375755')])
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 29, instance 0; result: 93.317242, duration: 0.000358
+19:45:52.990 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:52.991 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 93.317242, Runtime: 0.000358
+19:45:52.991 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:53.258 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'4.047053540480324'" -y "'0.2620394016503619'"
+19:45:53.559 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:53.559 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:53.559 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 30, instance: 0
+19:45:53.559 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '4.047053540480324'), ('y', '0.2620394016503619')])
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 30, instance 0; result: 6.068234, duration: 0.000390
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 6.068234, Runtime: 0.000390
+19:45:53.560 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:53.823 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:53:SMAC_to_HPOlib] CLI call: python -m HPOlib.optimization_interceptor --fold 0 --params -x "'0.6940986168859862'" -y "'7.3721570726382'"
+19:45:54.124 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [INFO] [19:45:54:SMAC_to_HPOlib] smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:54.124 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Starting instance evaluation for configuration: 31, instance: 0
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Parameters: OrderedDict([('x', '0.6940986168859862'), ('y', '7.3721570726382')])
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Finished instance Evaluation for configuration: 31, instance 0; result: 23.210828, duration: 0.000369
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  smac_2_10_00-dev_23_2016-12-12--19-45-32-240399
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Result: 23.210828, Runtime: 0.000369
+19:45:54.125 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  
+19:45:54.294 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR] Traceback (most recent call last):
+  File "/home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py", line 2, in <module>
+    import logging
+  File "/usr/lib/python2.7/logging/__init__.py", line 230, in <module>
+    class LogRecord(object):
+KeyboardInterrupt
+19:45:54.299 [CLI TAE (Master Thread - #0)] ERROR c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - The following algorithm call failed: cd "/home/elena/R_ws/automl/HPOlib/benchmarks/branin/smac_2_10_00-dev_23_2016-12-12--19-45-32-240399" ;  python /home/elena/R_ws/automl/HPOlib/optimizers/smac/SMAC_to_HPOlib.py 0 0 2.147483647E9 2147483647 -1 -x '3.9225124473931086' -y '0.16842742877999306'  
+19:45:54.300 [main] WARN  c.u.c.b.a.t.d.s.CrashedSolutionQualityTransformingTargetAlgorithmEvaluatorDecorator - Detected CRASHED run. The Solution Quality of CRASHED runs will be transformed to the MAX(quality, 1.0E9), to disable this use --transform-crashed-quality false to change the value use --transform-crashed-quality-value
