@@ -1,3 +1,3 @@
 from hyperopt import hp
-space = {'C': hp.quniform('C', 0, 24, 1),
-         'Sigma': hp.uniform('alpha', 0, 13)}
+space = {'C': hp.loguniform('C', -5, 15),
+         'Sigma': hp.loguniform('alpha', -15, 3)}

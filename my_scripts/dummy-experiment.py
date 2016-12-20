@@ -9,8 +9,9 @@ import ConfigParser
 import subprocess 
 import csv
 import shutil
+import re
 
-datasets_repo = "/home/elena/R_ws/automl/ADS_workspace/datasets_repo/configured"
+datasets_repo = "/home/elena/R_ws/automl/ADS_workspace/datasets_repo/remaining"
 opt_repo = "/home/elena/R_ws/automl/ADS_workspace/opt_repo"
 benchmarks_repo = "../benchmarks/automl_benchmarks/rbf_svm_benchmark"
 config_file = "config.cfg"
@@ -35,13 +36,17 @@ for dataset in datasets:
     dataset_opt_repo = opt_repo + '/' + dataset_name 
     if not os.path.exists(dataset_opt_repo):
       os.makedirs(dataset_opt_repo)
+
     # create benchmark by
     # 1. loading .cfg
     config = ConfigParser.ConfigParser()
     config_path = benchmarks_repo + '/' + config_file
     config.readfp(open(config_path))
+    print dataset 
     # 2. changing label dataset
-    dataset = config.set('HPOLIB', 'dataset', dataset)
+    dataset_2 = config.set('HPOLIB', 'dataset', dataset)
+    with open(config_path, 'wb') as configfile:
+        config.write(configfile)
     # delete previous experiment directory
     os.chdir(benchmarks_repo)
     run_command = ["echo hyperopt_august2013_mod_*"] 
@@ -50,12 +55,13 @@ for dataset in datasets:
                                     stderr=subprocess.PIPE)
     old_exp_dir, err = process.communicate()
     shutil.rmtree(old_exp_dir.rstrip('\n'), ignore_errors=True)
+    
     # optimize with HPOlib-run using tpe and svm
     
     run_command = ["HPOlib-run", "-o", "../../../optimizers/tpe/hyperopt_august2013_mod"]
     subprocess.call(run_command)
-
-    # save plots with HPOlib-plot
+    
+     # save plots with HPOlib-plot
     run_command = ["echo basename hyperopt_*/hyperopt_*.pkl"] 
     process = subprocess.Popen(run_command, shell=True,
                                     stdout=subprocess.PIPE,
@@ -67,7 +73,7 @@ for dataset in datasets:
     experiment_dir = pkl_file[(start+1):end] + '/'
     print experiment_dir
     pkl_file = pkl_file[9:-1]
-    run_command = ["HPOlib-plot", dataset_name, pkl_file, "-s", opt_repo + '/' + dataset_name + "_Plots", "--maxvalue", "1000"]
+    run_command = ["HPOlib-plot", dataset_name, pkl_file, "-s", dataset_opt_repo + "/Plots", "--maxvalue", "1000"]
     subprocess.call(run_command)
 
     # create csv with optimized hyperparameters for each dataset
@@ -80,14 +86,23 @@ for dataset in datasets:
     start = opt_hyper[0].index("C = ") + len("C = ")
     end =  opt_hyper[0].rindex(",")
     C_value = opt_hyper[0][start:end] 
+    start = opt_hyper[0].index("Time = ") + len("Time = ")
+    indices = [s.start() for s in re.finditer(',', opt_hyper[0])]
+    Time = opt_hyper[0][start:indices[1]]
+    start = opt_hyper[0].index("Result = ") + len("Result = ")
+    Result = opt_hyper[0][start:indices[0]]
     start = opt_hyper[0].index("Sigma = ") + len("Sigma = ")
     Sigma_value = opt_hyper[0][start:] 
     opt_hparams.append(float(C_value))
     opt_hparams.append(float(Sigma_value))
+    opt_hparams.append(float(Time))
+    opt_hparams.append(float(Result))
     print float(C_value)
-    opt_hyper_file = opt_repo + '/' + dataset_name + "_opt.csv"
+    opt_hyper_file = dataset_opt_repo + "/opt.csv"
     os.chdir(script_path)
-    writer = csv.writer(open(opt_hyper_file, 'w'))
-    writer.writerow(opt_hparams)
+    with open(opt_hyper_file, "w") as file:
+        writer = csv.writer(file)
+        writer.writerow(["C","Sigma","Time","Result"])
+        writer.writerow(opt_hparams)
     
    

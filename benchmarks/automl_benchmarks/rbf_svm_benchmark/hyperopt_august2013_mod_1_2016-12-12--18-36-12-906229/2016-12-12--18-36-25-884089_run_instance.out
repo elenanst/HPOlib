@@ -1,4 +1,0 @@
-0.00/0.01	Traceback (most recent call last):
-0.00/0.01	  File "../benchmark_svm.py", line 3, in <module>
-0.00/0.01	    import HPOlib.benchmarks.call_svm as call_svm
-0.00/0.01	ImportError: No module named call_svm
