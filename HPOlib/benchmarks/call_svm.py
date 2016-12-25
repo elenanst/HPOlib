@@ -25,7 +25,7 @@ def save_svm(params, **kwargs):
 def svm(C, Sigma, dataset):
     # Define command and arguments
     command = 'Rscript'
-    path2script = '/home/elena/R_ws/automl/HPOlib/HPOlib/benchmarks/R_scripts/my_svm.R'
+    path2script = '/home/elena/R_ws/automl/HPOlib/HPOlib/benchmarks/R_scripts/my_svm_reg.R'
     # Variable number of args in a list
     args = [str(C), str(Sigma), dataset]
     # Build subprocess command
